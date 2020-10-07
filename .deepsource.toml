@@ -11,3 +11,7 @@ enabled = true
   [analyzers.meta]
   environment = ["nodejs"]
   dialect = "typescript"
+  module_system = "es-modules"
+  dependency_file_paths = [
+  "website/package.json"
+  ]
