@@ -1,0 +1,13 @@
+version = 1
+
+test_patterns = ["cypress/**"]
+
+exclude_patterns = ["example/**"]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = ["nodejs"]
+  dialect = "typescript"
